@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./images/tip-img.png" alt="">
+        <h1 class="headin">Tip Calculator</h1>
+        <div class="con">
+            <div class="con-1">
+                    <p class="input-label">BILL AMOUNT</p>
+                    <input type="text" class="user-input" id="billAmount">
+            </div>
+            <div class="con-1">
+                    <p class="input-label">PERCENTAGE TIP</p>
+                    <input type="text" class="user-input" id="percentage">
+               
+            </div>
+            <div class="con-1">
+                
+                    <p class="input-label">TIP AMOUNT</p>
+                    <input type="text" class="user-input" id="tipAmount">
+            </div>
+            <div class="con-1">
+                
+                    <p class="input-label">TOTAL AMOUNT</p>
+                    <input type="text" class="user-input" id="totalAmount">
+                
+            </div>
+        </div>
+        <div class="btn">
+            <button class="button" onclick="GetFun()" id="butto-cal">CALCULATE</button>
+            <p class="message" id="errorMessage"></p>
+        </div>
+    </div>
+    <script src="idex.js"></script>
+</body>
+</html>
